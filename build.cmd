@@ -1,0 +1,1 @@
+pyinstaller --icon=".\refresh.ico" --onefile --windowed syncbackup.py

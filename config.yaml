@@ -1,0 +1,6 @@
+purge: true
+directories:
+  - source: c:\\temp1
+    target: c:\\가나다
+  - source: c:\\temp2
+    target: c:\\마바사
