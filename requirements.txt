@@ -1,0 +1,14 @@
+altgraph==0.17
+asyncio==3.4.3
+configparser==5.0.2
+dirsync==2.2.5
+future==0.18.2
+numpy==1.21.1
+pefile==2021.5.24
+pyinstaller==4.4
+pyinstaller-hooks-contrib==2021.2
+python-dateutil==2.8.2
+pytz==2021.1
+pywin32-ctypes==0.2.0
+PyYAML==5.4.1
+six==1.16.0
