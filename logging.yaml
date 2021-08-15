@@ -1,0 +1,30 @@
+version: 1
+formatters: 
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  detail:
+    format: '%(asctime)s - %(levelname)s - File: %(filename)s - %(funcName)s() - Line: %(lineno)d -  %(message)s'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: simple
+    stream: ext://sys.stdout
+  file:
+    class: logging.handlers.TimedRotatingFileHandler
+    level: INFO
+    formatter: simple
+    when: D
+    backupCount: 15
+    filename: ./logs/backup.log
+
+loggers:
+  backuplog:
+    level: INFO
+    handlers: [console, file]
+    propagate: true
+  testlog:
+    level: INFO
+    handlers: [console]
+    propagate: true
