@@ -160,3 +160,20 @@
 2021-08-13 17:52:14,033 - backuplog - INFO - dirsync finished in 0.00 seconds.
 2021-08-13 17:52:14,034 - backuplog - INFO - 2 directories parsed, 0 files copied
 2021-08-13 17:52:14,034 - backuplog - INFO - 
+2021-08-16 19:10:19,560 - backuplog - INFO - dirsync finished in 0.01 seconds.
+2021-08-16 19:10:19,563 - backuplog - INFO - 1 directories parsed, 4 files copied
+2021-08-16 19:10:19,564 - backuplog - INFO - 
+2021-08-16 19:11:23,991 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-16 19:11:23,993 - backuplog - INFO - 1 directories parsed, 4 files copied
+2021-08-16 19:11:23,995 - backuplog - INFO - 
+2021-08-16 19:11:46,997 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-16 19:11:46,998 - backuplog - INFO - 1 directories parsed, 2 files copied
+2021-08-16 19:11:46,999 - backuplog - INFO - 
+2021-08-16 19:14:15,631 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-16 19:14:15,632 - backuplog - INFO - 1 directories parsed, 2 files copied
+2021-08-16 19:14:15,633 - backuplog - INFO - 
+2021-08-16 19:15:00,389 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-16 19:15:00,390 - backuplog - INFO - 1 directories parsed, 0 files copied
+2021-08-16 19:15:00,391 - backuplog - INFO - 1 files were purged.
+2021-08-16 19:15:00,392 - backuplog - INFO - 1 files were updated by timestamp.
+2021-08-16 19:15:00,393 - backuplog - INFO - 

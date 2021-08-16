@@ -27,21 +27,21 @@ async def data_sync(data):
 
 async def main_async(args):
     def genData(args):
-        data = {}
-        data['source'].append(1)
-        print(data)
-        for i in range(len(args)):
-            if i % 2 == 1:
-                data = data + 'source'
-            else:
-                print(args[i])
+        data = []
+        if len(args) >= 2:
+            for arg in args:
+                s = arg.split(':')
+                if len(s) >= 2:
+                    temp = {}
+                    temp['source'] = s[0]
+                    temp['target'] = s[1]
+                    data.append(temp)
+        return data
 
-    print('::::::')
-    print(genData(args))
-    print('::::::')
-    print(config.get('directories'))
-    await asyncio.wait([data_sync(d) for d in config.get('directories')])
+    argsData = genData(args)
+    configData = config.get('directories')
+    data = argsData if not argsData == [] else configData
+    await asyncio.wait([data_sync(d) for d in data])
 
 if __name__ == '__main__':
-    print(len(sys.argv))
     asyncio.run(main_async(sys.argv))

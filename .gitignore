@@ -1,6 +1,7 @@
 __pycache__
 dist
-build
+builid
+logs
 *.out
 yaml.py
 syncbackup.spec
