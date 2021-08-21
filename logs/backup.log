@@ -136,3 +136,59 @@
 2021-08-20 16:24:59,110 - backuplog - INFO - dirsync finished in 0.00 seconds.
 2021-08-20 16:24:59,110 - backuplog - INFO - 2 directories parsed, 0 files copied
 2021-08-20 16:24:59,111 - backuplog - INFO - 
+2021-08-21 15:15:08,642 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 15:15:08,642 - backuplog - INFO - 1 directories parsed, 2 files copied
+2021-08-21 15:15:08,643 - backuplog - INFO - 
+2021-08-21 15:15:21,706 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 15:15:21,707 - backuplog - INFO - 1 directories parsed, 2 files copied
+2021-08-21 15:15:21,707 - backuplog - INFO - 
+2021-08-21 15:17:51,609 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 15:17:51,610 - backuplog - INFO - 1 directories parsed, 2 files copied
+2021-08-21 15:17:51,610 - backuplog - INFO - 
+2021-08-21 16:27:00,905 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:27:00,906 - backuplog - INFO - 1 directories parsed, 0 files copied
+2021-08-21 16:27:00,906 - backuplog - INFO - 1 files were updated by timestamp.
+2021-08-21 16:27:00,906 - backuplog - INFO - 
+2021-08-21 16:27:00,924 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:27:00,924 - backuplog - INFO - 1 directories parsed, 2 files copied
+2021-08-21 16:27:00,924 - backuplog - INFO - 
+2021-08-21 16:27:13,252 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:27:13,253 - backuplog - INFO - 1 directories parsed, 0 files copied
+2021-08-21 16:27:13,253 - backuplog - INFO - 1 files were updated by timestamp.
+2021-08-21 16:27:13,253 - backuplog - INFO - 
+2021-08-21 16:27:13,268 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:27:13,268 - backuplog - INFO - 1 directories parsed, 0 files copied
+2021-08-21 16:27:13,268 - backuplog - INFO - 1 files were updated by timestamp.
+2021-08-21 16:27:13,268 - backuplog - INFO - 
+2021-08-21 16:27:26,411 - backuplog - INFO - dirsync finished in 0.02 seconds.
+2021-08-21 16:27:26,412 - backuplog - INFO - 1 directories parsed, 2 files copied
+2021-08-21 16:27:26,412 - backuplog - INFO - 
+2021-08-21 16:27:26,425 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:27:26,425 - backuplog - INFO - 1 directories parsed, 0 files copied
+2021-08-21 16:27:26,425 - backuplog - INFO - 1 files were updated by timestamp.
+2021-08-21 16:27:26,426 - backuplog - INFO - 
+2021-08-21 16:27:26,439 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:27:26,439 - backuplog - INFO - 1 directories parsed, 0 files copied
+2021-08-21 16:27:26,439 - backuplog - INFO - 1 files were updated by timestamp.
+2021-08-21 16:27:26,439 - backuplog - INFO - 
+2021-08-21 16:41:48,391 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:41:48,392 - backuplog - INFO - 4 directories parsed, 0 files copied
+2021-08-21 16:41:48,393 - backuplog - INFO - 1 files were updated by timestamp.
+2021-08-21 16:41:48,394 - backuplog - INFO - 
+2021-08-21 16:41:48,413 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:41:48,415 - backuplog - INFO - 1 directories parsed, 0 files copied
+2021-08-21 16:41:48,415 - backuplog - INFO - 1 files were updated by timestamp.
+2021-08-21 16:41:48,416 - backuplog - INFO - 
+2021-08-21 16:41:48,431 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:41:48,432 - backuplog - INFO - 1 directories parsed, 0 files copied
+2021-08-21 16:41:48,433 - backuplog - INFO - 1 files were updated by timestamp.
+2021-08-21 16:41:48,435 - backuplog - INFO - 
+2021-08-21 16:46:03,261 - backuplog - INFO - dirsync finished in 0.00 seconds.
+2021-08-21 16:46:03,263 - backuplog - INFO - 1 directories parsed, 2 files copied
+2021-08-21 16:46:03,264 - backuplog - INFO - 
+2021-08-21 16:58:03,101 - backuplog - ERROR - 원본 경로가 존재하지않습니다.
+2021-08-21 17:01:05,677 - backuplog - ERROR - 원본 경로가 존재하지않습니다.
+2021-08-21 17:02:13,319 - backuplog - ERROR - source directory not found
+2021-08-21 17:02:39,820 - backuplog - ERROR - source directory not found - source : a
+2021-08-21 17:02:44,243 - backuplog - ERROR - source directory not found - source : a
+2021-08-21 17:02:51,902 - backuplog - ERROR - source directory not found - source : aaaaaaa
