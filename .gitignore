@@ -1,7 +1,8 @@
 __pycache__
 dist
-builid
+build
 logs
+.DS_Store
 .vscode
 *.out
 yaml.py
