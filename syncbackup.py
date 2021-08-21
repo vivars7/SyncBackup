@@ -16,32 +16,38 @@ def check_target_path(path):
     except OSError:
         print('Error: Create Target Directory. ' + path)
 
-async def data_sync(data):
-    '''
-    target 경로가 존재하지 않으면 생성.
-    '''
+async def data_sync(data, purge=False):
+    # target 경로가 존재하지 않으면 생성.
     check_target_path(data['target'])
 
-    sync(data['source'], data['target'], 'sync', logger=logger.getLogger(), purge=config.get('purge'))
+    sync(data['source'], data['target'], 'sync', logger=logger.getLogger(), purge=purge)
 
 
 async def main_async(args):
     def genData(args):
-        data = []
+        data = {}
         if len(args) >= 2:
             for arg in args:
-                s = arg.split(':')
-                if len(s) >= 2:
-                    temp = {}
-                    temp['source'] = s[0]
-                    temp['target'] = s[1]
-                    data.append(temp)
+                if 'purge=' in arg:
+                    data['purge'] = True if arg.split('purge=')[1] == 'true' else False
+                else:
+                    arr = []
+                    s = arg.split(',')
+                    if len(s) >= 2:
+                        temp = {}
+                        temp['source'] = s[0]
+                        temp['target'] = s[1]
+                        arr.append(temp)
+                    data['data'] = arr
         return data
 
-    argsData = genData(args)
-    configData = config.get('directories')
-    data = argsData if not argsData == [] else configData
-    await asyncio.wait([data_sync(d) for d in data])
+    argsData = genData(args)['data'] if 'data' in genData(args) else ''
+    purge = genData(args)['purge'] if 'purge' in genData(args) else config.get('purge')
+    data = argsData if not len(argsData) == 0 else config.get('directories')
+    print('****************')
+    print(data)
+    print('****************')
+    await asyncio.wait([data_sync(d, purge) for d in data])
 
 if __name__ == '__main__':
     asyncio.run(main_async(sys.argv))
